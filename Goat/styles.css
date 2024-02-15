@@ -3,7 +3,16 @@ body {
     padding: 0;
     width: 80%; /* Set a fixed width for the body element */
     margin: 0 auto; /* Center the body element within its parent */
+    background-color: rgb(201, 194, 241);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+.site-content {
+    flex: 1;
+}
+
 header {
     background-color: #350877c2;
     color: white;
@@ -31,8 +40,9 @@ section {
 }
 
 footer {
-    background-color: #F44336;
+    background-color: #350877c2;
     color: white;
+    padding: 10px;
     text-align: center;
 }
 
@@ -74,4 +84,8 @@ img {
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
+  }
+
+  footer > a {
+      color: white;
   }
