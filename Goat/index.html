@@ -3,39 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <title>The GOAT of every sport</title>
 </head>
-<!-- <script>
-    function includeHTML() {
-        var z, i, elmnt, file, xhttp;
-        /* Loop through a collection of all HTML elements: */
-        z = document.getElementsByTagName("*");
-        for (i = 0; i < z.length; i++) {
-            elmnt = z[i];
-            /*search for elements with a certain atrribute:*/
-            file = elmnt.getAttribute("w3-include-html");
-            if (file) {
-                /* Make an HTTP request using the attribute value as the file name: */
-                xhttp = new XMLHttpRequest();
-                xhttp.onreadystatechange = function () {
-                    if (this.readyState == 4) {
-                        if (this.status == 200) { elmnt.innerHTML = this.responseText; }
-                        if (this.status == 404) { elmnt.innerHTML = "Page not found."; }
-                        /* Remove the attribute, and call this function once more: */
-                        elmnt.removeAttribute("w3-include-html");
-                        includeHTML();
-                    }
-                }
-                xhttp.open("GET", file, true);
-                xhttp.send();
-                /* Exit the function: */
-                return;
-            }
-        }
-    }
-</script> -->
-<script type="text/javascript" src="includes/scripts.js"></script>
 
 <body>
     <div w3-include-html="includes/header.html"></div> 
@@ -43,26 +14,11 @@
     <script>
         includeHTML();
     </script>
-    <!-- <header>
-        <h1>The GOAT of every sport</h1>
-        <h3> This page will show the biographie and achivements of the greatest players of the greatest sports in the
-            world
-        </h3>
-        <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="Football.html">Football</a>
-            <a href="Basketball.html">Basketball</a>
-        </div>
-    </header> -->
     <main class="site-content">
         <p><a href="Basketball.html"><img src="img/basketball.png" alt="Basketball" /> The GOAT of Basketball</a>
         <p>
         <p><a href="Football.html"><img src="img/football.png" alt="Football" /> The GOAT of Football</a> </p>
     </main>
     <div w3-include-html="includes/footer.html"></div> 
-<!-- <footer>
-    <p>© 2024 Vadim and ...</p>
-        <a href="mailto:info@goat.com">Contact</a></p>
-</footer> -->
 </body>
 </html>

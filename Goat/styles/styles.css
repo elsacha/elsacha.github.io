@@ -53,6 +53,10 @@ img {
     width: 150px;
 }
 
+.player-name {
+    text-align: center;
+}
+
 .player > img  {
     display: block;
     margin: auto;
